@@ -1,11 +1,11 @@
 {
-  "manifest_version": 2,
-  "name": "Desativar eventos de visibilidade",
+  "manifest_version": 3,
+  "name": "Unopar hack tool",
   "version": "1.0",
-  "permissions": ["<all_urls>"],
+  "permissions": ["scripting", "activeTab"],
   "content_scripts": [
     {
-      "matches": ["http://exemplo.com/*", "https://exemplo.com/*"],
+      "matches": ["https://colaboraread.com.br/*"],
       "js": ["content.js"]
     }
   ]
