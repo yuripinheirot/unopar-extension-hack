@@ -15,5 +15,3 @@ function handleWindowFocus() {}
 function handleKeyDown() {}
 function handleKeyPress() {}
 function handleKeyUp() {}
-
-document.getElementsByTagName('video')[0].playbackRate = 16
