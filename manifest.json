@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Desativar eventos de visibilidade",
+  "version": "1.0",
+  "permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["http://exemplo.com/*", "https://exemplo.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
